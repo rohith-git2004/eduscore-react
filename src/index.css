@@ -1,0 +1,16 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+/* Landing Page */
+.landing-wrapper {
+  min-height: calc(100vh - 112px); 
+  background: linear-gradient(
+    135deg,
+    #f8f9fa 0%,
+    #eef4ff 100%
+  );
+}
